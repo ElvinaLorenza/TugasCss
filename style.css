@@ -1,13 +1,22 @@
 /*style*/
 body{
-    font: 16px/28px Times, sans-serif;
-    background-color: #eaeaea;
+    font: 16px/28px Times New Roman, sans-serif;
+    background-color: lightcyan;
     color: #333;
 }
 
 .container {
-    width : 800px;
-    margin: auto;
+    background-color: lightslategray;
+    width : 900px;
+    margin: 80px auto;
+}
+
+.instagram{
+    width; 200px;
+    height: 20px;
+    background-image: url(ig.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
 }
 
 .header {
@@ -36,9 +45,73 @@ body{
 }
 
 .hero{
-    height: 250px;
+    height: 800px;
     background-image: url(Pinaaa.jpeg);
     background-size: cover;
-    background-position: 0 -180px;
-    border-top: 5px;
+    background-position: 0 -500px;
+    border-top: 5px solid lightskyblue;
+    border-bottom: 5px solid lightskyblue;
+}
+
+.main {
+    width: 550px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main .penulis{
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.main p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: black;
+}
+
+.sidebar p{
+    font: 12px/18px arial;
+}
+
+.footer{
+    background-color: #333;
+    padding: 20px;
+} 
+
+.footer{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1*/
+    display: table; /* 2 */
+}
+
+.cf:after{
+    clear: both;
+}
+
+.cf{
+    *zoom: 1;
 }

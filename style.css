@@ -5,18 +5,33 @@ body{
     color: #333;
 }
 
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    background-color: lightgoldenrodyellow;
+    border-bottom: 3px solid lightskyblue;
+    z-index: 9999;
+}
+
 .container {
     background-color: lightslategray;
     width : 900px;
     margin: 80px auto;
+    position: relative;
 }
 
 .instagram{
-    width; 200px;
-    height: 20px;
+    width: 150px;
+    height: 150px;
     background-image: url(ig.png);
     background-repeat: no-repeat;
+    display: inline-block;
     text-indent: -9999px;
+    position: absolute;
+    right: -79px;
 }
 
 .header {
